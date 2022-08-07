@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+   
+
+    
+  
+
+}
+.upper{
+    background-color: #636c79;
+    padding: 20px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    color: white;
+   
+    
+} 
+.logo img{
+    width: 90px;
+}
+.nav-items ul {
+    display: flex;
+    margin-right: 80px;
+}
+.nav-items ul li {
+    margin-right: 45px;
+}
+.nav-items button{
+    width: 100px;
+    height: 30px;
+    background: none;
+    color: white;
+    border: 1px solid gainsboro;
+}
+.brand img {
+    width: 35vw;
+
+  
+}
+.brand {
+    display: flex;
+    padding: 20px 60px;
+    color: white;
+    
+}
+.brand-left {
+    width: 30vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+    
+
+}
+.brand-left h1 {
+    font-size: 40px;
+}
+.email
+{
+background-color: white;
+border: 1px solid black;
+
+height: 50px;
+}
+.email button{
+    width: 100px;
+    height: 40px;
+  
+    background-color: #8bb7a2;
+    color: white;
+    border: none;
+    margin-left: 8px;
+    
+    
+}
+.email input {
+    width: 65%;
+    height: 90%;
+    padding-left: 20px;
+
+}
+.middle-one {
+  text-align: center;
+}
+.project-info {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+
+}
+.middle-one  img {
+    width: 66vw;
+    margin-top: 40px;
+}
+th,tr  {
+    width: 200px;
+    height: 20px;
+
+    
+}
+.middles{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    margin-top:25px ;
+}
+.middle img {
+    width: 30vw;
+    margin-left: 80px;
+   
+}
+.text {
+    width: 30vw;
+    margin: 10px 80px;
+    
+}
+.middle-text {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.text h1 {
+    margin-bottom: 20px;
+
+}
+.text p {
+    margin-bottom: 20px;
+}
+.text button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #8bb7a2;
+}
+.team-text {
+    display:  flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+   
+
+}
+.team-text p {
+    width: 29vw;
+}
+.team-text h1 {
+    width: 20vw;
+    margin-right: 10vw;
+    margin-left: 15vw;
+    
+}
+.team-member img {
+    width: 20vw;
+}
+.team-member h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.team-member p {
+    margin-right: 10px
+}
+.team-members {
+    display: flex;
+    padding: 20px 100px;
+}
+.see-more {
+    display: flex;
+    justify-content: center;
+}
+.see-more button {
+    width: 120px;
+    height: 38px;
+    background-color: #8bb7a2;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+footer {
+   background-color: #10181d;
+   color: white;
+   padding: 20px 140px;
+   height: 40vh;
+}
+.footer-upper img {
+    width: 90px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.2px solid hsla(0, 0%, 100%, 0.625);
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.footer-list ul li {
+    margin-top: 20px;
+}
+.footer-list li:first-child{
+    font-size: 20px;
+}
