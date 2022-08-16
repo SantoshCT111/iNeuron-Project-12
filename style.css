@@ -1,4 +1,4 @@
-*{
+d*{
     margin: 0;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -72,12 +72,16 @@ li {
 {
 background-color: white;
 border: 1px solid black;
+position: relative;
 
 height: 50px;
 }
 .email button{
-    width: 100px;
+    width: 90px;
+    right: 5px;
     height: 40px;
+    position: absolute;
+    top: 5px;
   
     background-color: #8bb7a2;
     color: white;
@@ -216,4 +220,52 @@ footer {
 }
 .footer-list li:first-child{
     font-size: 20px;
+}
+@media  screen and (max-width:1060px){
+    .nav-items {
+        display: none;
+    }
+    .bar {
+        display: block;
+        width: 36px;
+
+    }
+    .bar img {
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(236deg) brightness(108%) contrast(100%);
+    }
+    .brand {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 20px 0;
+        
+
+    }
+    .brand img {
+      
+        width: 60%;
+        margin: 10px 40px
+    }
+    .brand-left {
+        margin-left: 30px;
+        width: 60vw;
+    }
+    .middle {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .two,.four {
+        flex-direction: column-reverse;
+    }
+    .team-members {
+        flex-direction: column;
+    }
+    .footer-list {
+        flex-wrap: wrap;
+
+    }
+    footer {
+        height: 100%;
+        padding: 20px 15px;
+    }
 }
